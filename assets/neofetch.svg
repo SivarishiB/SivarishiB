@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="868" height="613" viewBox="0 0 868 613" role="img" aria-label="Sivarishi B — ASCII portrait and profile">
+<style>
+  .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+  .a { font-size: 9px; fill: #5eead4; white-space: pre; opacity: 0; animation: rowIn .5s ease-out forwards; }
+  .t { font-size: 14px; fill: #d6e2ee; opacity: 0; animation: rowIn .35s ease-out forwards; white-space: pre; }
+  .k { fill: #5eead4; font-weight: 700; }
+  .h { fill: #f472b6; font-weight: 700; }
+  .d { fill: #5b6b7c; }
+  @keyframes rowIn { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+  .scan { animation: scan 4.5s linear 3.2s infinite; opacity: 0; }
+  @keyframes scan { 0% { transform: translateY(0); opacity: .0; } 5% { opacity: .55; } 95% { opacity: .55; } 100% { transform: translateY(513.0px); opacity: 0; } }
+  .glitch { animation: glitch 6s steps(1) 4s infinite; }
+  @keyframes glitch { 0%,100% { transform: none; } 92% { transform: translateX(3px); } 93% { transform: translateX(-4px); } 94% { transform: none; } }
+  .cursor { animation: blink 1s steps(1) infinite; fill: #5eead4; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .sw { opacity: 0; animation: rowIn .3s ease-out forwards; }
+</style>
+<defs>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+    <stop offset="1" stop-color="#5eead4" stop-opacity=".9"/>
+  </linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#f472b6"/>
+  </linearGradient>
+  <clipPath id="pc"><rect x="28" y="52" width="442.8" height="517.0"/></clipPath>
+</defs>
+<rect width="868" height="613" rx="14" fill="#0b0f14"/>
+<rect x=".5" y=".5" width="867" height="612" rx="14" fill="none" stroke="#1f2a36"/>
+<!-- window chrome -->
+<circle cx="24" cy="22" r="6" fill="#ff5f57"/><circle cx="44" cy="22" r="6" fill="#febc2e"/><circle cx="64" cy="22" r="6" fill="#28c840"/>
+<text x="434.0" y="27" text-anchor="middle" class="mono" font-size="12" fill="#5b6b7c">~/sivarishi — zsh — neofetch</text>
+<line x1="0" y1="42" x2="868" y2="42" stroke="#1f2a36"/>
+
+<g class="mono glitch" clip-path="url(#pc)">
+<text class="a" x="28" y="91.0" style="animation-delay:0.23s" xml:space="preserve">                                              %%</text>
+<text class="a" x="28" y="100.0" style="animation-delay:0.26s" xml:space="preserve">                                     ###%#+===+**%##</text>
+<text class="a" x="28" y="109.0" style="animation-delay:0.29s" xml:space="preserve">                                   *==-:-+==-=--:::-=+#</text>
+<text class="a" x="28" y="118.0" style="animation-delay:0.32s" xml:space="preserve">                                  *+----:.-:--:.:.:--=:+*</text>
+<text class="a" x="28" y="127.0" style="animation-delay:0.35s" xml:space="preserve">                               *+=---::--::::-:.-::-::.:-*</text>
+<text class="a" x="28" y="136.0" style="animation-delay:0.37s" xml:space="preserve">                              #===----:--..::...:.:....:::-+</text>
+<text class="a" x="28" y="145.0" style="animation-delay:0.40s" xml:space="preserve">                            ##*=--.:.--:......::..:...:::::-</text>
+<text class="a" x="28" y="154.0" style="animation-delay:0.43s" xml:space="preserve">                           #*=---....:..:....:-=:.:...:-::::=#</text>
+<text class="a" x="28" y="163.0" style="animation-delay:0.46s" xml:space="preserve">                            #::-..:..-::::-:::-:...::..:..-:=+#</text>
+<text class="a" x="28" y="172.0" style="animation-delay:0.49s" xml:space="preserve">                            +:-..:==--:=---::....:..:....::::==</text>
+<text class="a" x="28" y="181.0" style="animation-delay:0.51s" xml:space="preserve">                           #=-:..=+++++#*+--:......::...:-..:-*</text>
+<text class="a" x="28" y="190.0" style="animation-delay:0.54s" xml:space="preserve">                           *--.:-=*##%#*+=--::.:..::...:.:..::*</text>
+<text class="a" x="28" y="199.0" style="animation-delay:0.57s" xml:space="preserve">                           %=.:-*%%%@@%%*=-:.....:.....:..:::-%</text>
+<text class="a" x="28" y="208.0" style="animation-delay:0.60s" xml:space="preserve">                            *:-=*%   %%#*+=-::........:..::::*</text>
+<text class="a" x="28" y="217.0" style="animation-delay:0.63s" xml:space="preserve">                              **==*%#+-:-----:::.....::.::::=</text>
+<text class="a" x="28" y="226.0" style="animation-delay:0.65s" xml:space="preserve">                                =**%#=::-*+------::.:::---::=%</text>
+<text class="a" x="28" y="235.0" style="animation-delay:0.68s" xml:space="preserve">                                **#%*==****==+++=+***-::=---#</text>
+<text class="a" x="28" y="244.0" style="animation-delay:0.71s" xml:space="preserve">                                %%@#++*#%%%%%#*++*#%*-::==:=#</text>
+<text class="a" x="28" y="253.0" style="animation-delay:0.74s" xml:space="preserve">                                @@@*==+#@@@%%*+++#%%+-===::#</text>
+<text class="a" x="28" y="262.0" style="animation-delay:0.77s" xml:space="preserve">                                %@#===-#%%%#*+=+*#%#==+=:.=</text>
+<text class="a" x="28" y="271.0" style="animation-delay:0.79s" xml:space="preserve">                                %%*-:==#%%##++=+*#%%##-:.=</text>
+<text class="a" x="28" y="280.0" style="animation-delay:0.82s" xml:space="preserve">                                #***==+*#**+++++*#%##%-:+</text>
+<text class="a" x="28" y="289.0" style="animation-delay:0.85s" xml:space="preserve">                                 ***+==---====++*#**#%</text>
+<text class="a" x="28" y="298.0" style="animation-delay:0.88s" xml:space="preserve">                                 %###+=++=====++**+*#@</text>
+<text class="a" x="28" y="307.0" style="animation-delay:0.91s" xml:space="preserve">                              #=*#*+=-====--==+++++##@</text>
+<text class="a" x="28" y="316.0" style="animation-delay:0.93s" xml:space="preserve">                          *=---=#%**+++==---===+=+*###</text>
+<text class="a" x="28" y="325.0" style="animation-delay:0.96s" xml:space="preserve">                     #+---:---:--*%+--:::.:::-===+*###-=*</text>
+<text class="a" x="28" y="334.0" style="animation-delay:0.99s" xml:space="preserve">                  *=---:::::---:--=#%##*=--::---=+*#*=:::-+#</text>
+<text class="a" x="28" y="343.0" style="animation-delay:1.02s" xml:space="preserve">              #+=----::::::::::--:::-++**++==---=+=-:::.::::-=#</text>
+<text class="a" x="28" y="352.0" style="animation-delay:1.05s" xml:space="preserve">            *=------:::::::-:::::--::::::::::::::......::::::::-+</text>
+<text class="a" x="28" y="361.0" style="animation-delay:1.07s" xml:space="preserve">          *+==-------::::---:--::::::::::..............:::::::::::=#</text>
+<text class="a" x="28" y="370.0" style="animation-delay:1.10s" xml:space="preserve">        #========-----::----:--::::::::::..............::::::::::::--+</text>
+<text class="a" x="28" y="379.0" style="animation-delay:1.13s" xml:space="preserve">       *+======-=-::--::-------::::::::::::....:.::..::::::::::::::::-=#</text>
+<text class="a" x="28" y="388.0" style="animation-delay:1.16s" xml:space="preserve">      *++=+--==---.:-=:-----:--::::::::::::::::::::::::::::::::::::::--=#</text>
+<text class="a" x="28" y="397.0" style="animation-delay:1.19s" xml:space="preserve">     *+=++=--=-:--.:-----------::::::::::::::::::::::::::::::::::::::-:--*</text>
+<text class="a" x="28" y="406.0" style="animation-delay:1.21s" xml:space="preserve">    #=+=+---:--::-.-==---------:::::::::::::::::::::::::::::::::::.:::.---</text>
+<text class="a" x="28" y="415.0" style="animation-delay:1.24s" xml:space="preserve">   %=====::-:--.:::-=---------::::::::::::::::::::::::::::::::::::.::..::-+</text>
+<text class="a" x="28" y="424.0" style="animation-delay:1.27s" xml:space="preserve">   +===+-.:--:-.:::-=---------:::--:--::::::::::::::::::::::::::::.::..:::=#</text>
+<text class="a" x="28" y="433.0" style="animation-delay:1.30s" xml:space="preserve">  *=====:.:--:-.::-==--------::::-++++*+-++++-==-=---:::::::::::::.::..:.:-+</text>
+<text class="a" x="28" y="442.0" style="animation-delay:1.33s" xml:space="preserve"> #======..:--::.::-=-::----:--::::::::::::::---==+===::::::::::::::.....:.:=#</text>
+<text class="a" x="28" y="451.0" style="animation-delay:1.35s" xml:space="preserve"> +=====-..::-::.:-=-:::---::--:::::::::::..:::::::::::::::::::::::::......:-=</text>
+<text class="a" x="28" y="460.0" style="animation-delay:1.38s" xml:space="preserve">+======-...--:..::-:.:::--:---::::::::::...:::::::::::::::::::::::.:......:--</text>
+<text class="a" x="28" y="469.0" style="animation-delay:1.41s" xml:space="preserve">+======-...::.:..:-..::-------:::::::::....:::::::::::::::::::::::........:--+</text>
+<text class="a" x="28" y="478.0" style="animation-delay:1.44s" xml:space="preserve">=======:...:..:..::.::-------::::::::::....:::::::::::::::::::::.::.......:--=</text>
+<text class="a" x="28" y="487.0" style="animation-delay:1.47s" xml:space="preserve">======-:...:.....::.::-------:::::.::::....::::::::::..:::::::::::........:=--*</text>
+<text class="a" x="28" y="496.0" style="animation-delay:1.49s" xml:space="preserve">======-..........::::::-----::.:::.::-:....::::::::::....:.::::::........::---+</text>
+<text class="a" x="28" y="505.0" style="animation-delay:1.52s" xml:space="preserve">======-.........::::::--:---:..:.:::-::....::::::::::.....:::::::........:--:-#</text>
+<text class="a" x="28" y="514.0" style="animation-delay:1.55s" xml:space="preserve">======-.........-:::::-----::....:::-::....::::::::::.....::::::.........:--:+#%</text>
+<text class="a" x="28" y="523.0" style="animation-delay:1.58s" xml:space="preserve">=====--........:--::::-----::...:::--::....::::::::::......::::..........:--:=++</text>
+<text class="a" x="28" y="532.0" style="animation-delay:1.61s" xml:space="preserve">==----:.........--::----=-::....::---:....:::::::::::......::::..........:-:-::-*</text>
+<text class="a" x="28" y="541.0" style="animation-delay:1.63s" xml:space="preserve">===--::.....-...:-:::---=-::....::--::....:.::::::::::.....::- :.........::--::-=</text>
+<text class="a" x="28" y="550.0" style="animation-delay:1.66s" xml:space="preserve">-----:.....* ...:-::::----:....:::--::......::::::::::......:* #...........::::-=*</text>
+<text class="a" x="28" y="559.0" style="animation-delay:1.69s" xml:space="preserve">=----:....* #...-------=-::....:---:::.....:::::::::::.....::+  -..........::--==</text>
+<text class="a" x="28" y="568.0" style="animation-delay:1.72s" xml:space="preserve">----:....=  +..:---:-----:....::---:::.....:::::::::::.....::=  #........::::=*</text>
+<rect class="scan" x="28" y="34" width="442.8" height="22" fill="url(#beam)"/>
+</g>
+<text class="mono t" x="510.8" y="66" style="animation-delay:0.60s"><tspan class="h">rishi</tspan><tspan class="d">@</tspan><tspan class="k">github</tspan></text>
+<text class="mono t d" x="510.8" y="84" style="animation-delay:0.69s">----------------------------</text>
+<text class="mono t" x="510.8" y="102" style="animation-delay:0.78s"><tspan class="k">Name</tspan><tspan class="d">: </tspan>Sivarishi B</text>
+<text class="mono t" x="510.8" y="120" style="animation-delay:0.87s"><tspan class="k">Role</tspan><tspan class="d">: </tspan>Python / Django Full-Stack Dev</text>
+<text class="mono t" x="510.8" y="138" style="animation-delay:0.96s"><tspan class="k">Based</tspan><tspan class="d">: </tspan>Bengaluru, IN</text>
+<text class="mono t" x="510.8" y="156" style="animation-delay:1.05s"><tspan class="k">Degree</tspan><tspan class="d">: </tspan>B.Tech CSE · SRM IST &#x27;25</text>
+<text class="mono t" x="510.8" y="174" style="animation-delay:1.14s"><tspan class="k">CGPA</tspan><tspan class="d">: </tspan>8.37</text>
+<text class="mono t" x="510.8" y="192" style="animation-delay:1.23s"><tspan class="k">Exp</tspan><tspan class="d">: </tspan>SDE Intern @ Infosys</text>
+<text class="mono t" x="510.8" y="210" style="animation-delay:1.32s"><tspan class="k">Cert</tspan><tspan class="d">: </tspan>Oracle MySQL 8.0 Developer</text>
+<text class="mono t" x="510.8" y="246" style="animation-delay:1.50s"><tspan class="k">Core</tspan><tspan class="d">: </tspan>Python, Django, MySQL, SQL</text>
+<text class="mono t" x="510.8" y="264" style="animation-delay:1.59s"><tspan class="k">Web</tspan><tspan class="d">: </tspan>JavaScript, TypeScript, React</text>
+<text class="mono t" x="510.8" y="282" style="animation-delay:1.68s"><tspan class="k">Backend</tspan><tspan class="d">: </tspan>Node.js, REST APIs, Supabase</text>
+<text class="mono t" x="510.8" y="300" style="animation-delay:1.77s"><tspan class="k">Data</tspan><tspan class="d">: </tspan>Pandas, NumPy</text>
+<text class="mono t" x="510.8" y="318" style="animation-delay:1.86s"><tspan class="k">ML</tspan><tspan class="d">: </tspan>TensorFlow, OpenCV</text>
+<text class="mono t" x="510.8" y="336" style="animation-delay:1.95s"><tspan class="k">Tools</tspan><tspan class="d">: </tspan>Git, Linux CLI</text>
+<text class="mono t" x="510.8" y="372" style="animation-delay:2.13s"><tspan class="k">Builds</tspan><tspan class="d">: </tspan>Night Guardian · Elegant Shopping</text>
+<text class="mono t" x="510.8" y="390" style="animation-delay:2.22s"><tspan class="k">Status</tspan><tspan class="d">: </tspan>open to SDE roles ✦</text>
+<rect class="sw" x="510.8" y="413" width="24" height="16" rx="2" fill="#0b0f14" stroke="#1f2a36" style="animation-delay:2.40s"/>
+<rect class="sw" x="536.8" y="413" width="24" height="16" rx="2" fill="#f87171" stroke="#1f2a36" style="animation-delay:2.45s"/>
+<rect class="sw" x="562.8" y="413" width="24" height="16" rx="2" fill="#4ade80" stroke="#1f2a36" style="animation-delay:2.50s"/>
+<rect class="sw" x="588.8" y="413" width="24" height="16" rx="2" fill="#facc15" stroke="#1f2a36" style="animation-delay:2.55s"/>
+<rect class="sw" x="614.8" y="413" width="24" height="16" rx="2" fill="#60a5fa" stroke="#1f2a36" style="animation-delay:2.60s"/>
+<rect class="sw" x="640.8" y="413" width="24" height="16" rx="2" fill="#f472b6" stroke="#1f2a36" style="animation-delay:2.65s"/>
+<rect class="sw" x="666.8" y="413" width="24" height="16" rx="2" fill="#5eead4" stroke="#1f2a36" style="animation-delay:2.70s"/>
+<rect class="sw" x="692.8" y="413" width="24" height="16" rx="2" fill="#d6e2ee" stroke="#1f2a36" style="animation-delay:2.75s"/>
+<text class="mono t" x="510.8" y="462" style="animation-delay:2.58s"><tspan class="h">❯</tspan> echo "what the flex?"</text>
+<rect class="cursor" x="706.8" y="450" width="8" height="15"/>
+</svg>
